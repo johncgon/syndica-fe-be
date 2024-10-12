@@ -1,0 +1,22 @@
+.authorizer__reports-builder-container, .authorizer__reports-preview-container{
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+}
+
+.export-button {
+    border: var(--secondary) solid 0.15rem;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--secondary);
+    border-radius: 0.25rem;
+}
+
+.generate-button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #e7c816;
+    color: #151515;
+    border-radius: 0.25rem;
+}

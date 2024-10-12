@@ -1,0 +1,63 @@
+
+.userpage__card-title div {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: red;
+}
+
+.userpage__card-container {
+    background-color: var(--primary);
+}
+
+.userpage__quicktrack-container {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.userpage__quicktrack-container input {
+    border: none;
+    outline: none;                              
+}
+
+.userpage__quicktrack-form input:nth-child(2) {
+    background-color: var(--accent);
+}
+
+.userpage__vouchersummary-container {
+    background-color: var(--primary);
+}
+
+
+.voucherSummary__filter-button,
+.voucherSummary__filterDay {
+    outline: none;
+    border: transparent;
+    background-color: transparent;
+}
+
+.voucherSummary__filter-button:active,
+.voucherSummary__filter-button:hover,
+.voucherSummary__filterDay:active,
+.voucherSummary__filterDay:hover,
+.voucherSummary__card:hover
+{
+    background-color: var(--white);
+
+}
+
+.voucherSummary__card {
+    
+    transition: all 0.3s ease;
+}
+
+
+.voucherSummary__card-icon {
+    background-color: red;
+}
+
+.voucherSummary__card-TopCounter {
+    background-color: var(--accent);
+}
+
+
+

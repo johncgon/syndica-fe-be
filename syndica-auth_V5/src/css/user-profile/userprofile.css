@@ -1,0 +1,89 @@
+.userprofile__container {
+    height: calc(100% - 4rem);
+    background-color: var(--white);
+}
+
+.userprofilerender__container,
+.userprofilenav__container {
+    background-color: var(--primary);
+}
+
+.userprofilenav__container ul {
+    list-style-type: none;
+}
+
+.userprofilenav__container li{
+    cursor: pointer;
+}
+
+.issuerprofile__nav{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.issuerprofile__nav path{
+    fill: var(--primary)
+}
+
+.adminprofile__nav{
+    background-color: var(--accent);
+}
+
+.adminprofile__nav path{
+    fill: black;
+}
+
+.adminprofile__nav p,
+.issuerprofile__nav p {
+    font-weight: 600;
+}
+
+.userprofile__verticalline {
+    border-left: 2px solid var(--white);
+}
+
+.profileoverview__contacts-row path {
+    fill: black;
+    opacity: 0.6;
+}
+
+.userprofile__card p {
+    color: #b4b4b4;
+}
+
+.userprofile__card:hover {
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.profilepersonal__col img {
+    border-radius: 50%;
+}
+
+.profilepersonal__col:first-child label {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.profilepersonal__input {
+    width: calc(50% - 1rem) !important;
+}
+
+.profilepersonal__input input{
+    border: 1px solid black;
+}
+
+.profilepersonal__container button,
+.profilesecurity__container button {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+
+.profilesecurity__row input{
+    border: 1px solid black;
+}
+
+.profilesecurity__tip {
+    background-color: var(--white);
+}

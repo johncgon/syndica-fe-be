@@ -1,0 +1,22 @@
+.adminpage__status-active {
+  background-color: #37b37e;
+}
+
+.adminpage__status-inactive {
+  background-color: #FF5630;
+}
+
+.adminpage__status-suspended {
+  background-color: #FFAB01;
+}
+.adminpage__action-view {
+  background-color: #06bea8;
+}
+
+.adminpage__action-edit {
+  background-color: #ffb800;
+}
+
+.adminpage__action-delete {
+  background-color: #c50000;
+}

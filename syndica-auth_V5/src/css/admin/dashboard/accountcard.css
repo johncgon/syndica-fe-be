@@ -1,0 +1,18 @@
+.accountcard__body::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 15px;
+  background: transparent;
+}
+.accountcard__body::-webkit-scrollbar-track {
+  background: #f2f2f2; /* Color of the scrollbar track */
+  border-radius: 10px;
+}
+.accountcard__body::-webkit-scrollbar-thumb {
+  background: gray; /* Color of the scrollbar thumb */
+  border-radius: 10px;
+  height: 30px; /* Height of the scrollbar thumb */
+}
+
+.accountcard__body::-webkit-scrollbar-thumb:hover {
+  background: lightgray;
+}

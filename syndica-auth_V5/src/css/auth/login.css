@@ -1,0 +1,52 @@
+
+.login__container {
+    background-color: var(--secondary);
+}
+
+.login__inner {
+    background-color: var(--primary);
+}
+
+.login__card:first-child h1 {
+    text-shadow: 1px 1px 3px #1A5276;
+}
+
+.login__card:nth-child(1) {
+    background-image: url(../../assets/res/bjmp/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.forgot__card {
+    background-image: url(../../assets/res/bjmp/bg2.jpg) !important;
+}
+
+.login__card h1 {
+    color: var(--primary);
+}
+
+.login__form h1,
+.login__form a{
+    color: #161616;
+}
+
+.login__row input {
+    border: 1px solid #90A4AE;
+}
+
+.login__submit {
+    background-color: var(--accent);
+    border: none;
+}
+
+.login__remember-label {
+    user-select: none !important;
+}
+
+.forgot-password__return {
+    color: var(--secondary) !important;
+}
+
+
+
+

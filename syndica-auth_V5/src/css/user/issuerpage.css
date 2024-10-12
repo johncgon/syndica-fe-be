@@ -1,0 +1,6 @@
+.userpage__content-container {
+    margin-top: 4rem;
+    margin-left: 14rem;
+    min-height: calc(100vh - 4rem);
+    background-color: var(--white);
+}

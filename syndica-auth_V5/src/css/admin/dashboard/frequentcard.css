@@ -1,0 +1,14 @@
+.frequentcard__container,.frequentsummary__container {
+    background-color: #ffffff;
+}
+
+.frequentsummary__container {
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.frequentsummary__container:hover{
+    background-color: #d4d4d4;
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,66 @@
+.authorizer__processing-receiver-container, .authorizer__processing-list-container, .authorizer__processing-process-detail, .authorizer__processing-checklist{
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+}
+
+.authorizer__filter{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #E8F0F6;
+    border-radius: 0.25rem;
+}
+
+.authorizer__filter svg{
+    color: var(--secondary);
+}
+
+.return-button {
+    border: #f04343 solid 0.15rem;
+    outline: none;
+    box-shadow: none;
+    background-color: #FFFFFF;
+    color: #f04343;
+    border-radius: 0.25rem;
+}
+
+.onhold-button {
+    border: #6343f0 solid 0.15rem;
+    outline: none;
+    box-shadow: none;
+    background-color: #FFFFFF;
+    color: #6343f0;
+    border-radius: 0.25rem;
+}
+
+.receive-button {
+    border: var(--secondary) solid 0.15rem;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--secondary);
+    border-radius: 0.25rem;
+}
+
+.auth-button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #e7c816;
+    color: #151515;
+    border-radius: 0.25rem;
+}
+
+.search-button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #E8F0F6;
+    color: var(--secondary);
+    border-radius: 0.25rem;
+}
+
+input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+}

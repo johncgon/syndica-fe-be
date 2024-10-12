@@ -1,0 +1,29 @@
+.adminpage__content-container {
+    margin-top: 4rem;
+    margin-left: 14rem;
+    width: 100%;
+    background-color: #ededed;
+    height: calc(100vh - 4rem);
+    border: 2px solid red;
+}
+
+.adminpage__content-container::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    height: 15px;
+    background: transparent;
+  }
+  
+  .adminpage__content-container::-webkit-scrollbar-track {
+    background: #f2f2f2; /* Color of the scrollbar track */
+    border-radius: 10px;
+  }
+  
+  .adminpage__content-container::-webkit-scrollbar-thumb {
+    background: gray; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    height: 30px; /* Height of the scrollbar thumb */
+  }
+  
+  .adminpage__content-container::-webkit-scrollbar-thumb:hover {
+    background: lightgray;
+  }

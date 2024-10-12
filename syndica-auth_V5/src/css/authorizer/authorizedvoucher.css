@@ -1,0 +1,7 @@
+.authorizedvoucher__header {
+    background-color: var(--secondary);
+}
+
+.authorizedvoucher__card-icon svg{
+    color: var(--secondary);
+}

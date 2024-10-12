@@ -1,0 +1,15 @@
+.accountcount__cards {
+  background-color: #ededed;
+}
+
+.accountcount__card {
+  width: calc(20% - 0.25rem);
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+
+
+.accountcount__card:hover,
+.accountcount__card:active {
+  background-color: #d4d4d4;
+  border-radius: 10px;
+}

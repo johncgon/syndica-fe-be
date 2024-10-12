@@ -1,0 +1,49 @@
+.issuedv__progressbar-container {
+    background-color: var(--primary);
+    height: 15%;
+    color: var(--secondary);
+}
+
+.svg-container {
+    /* background-color: red; */
+}
+
+.progress__dot {
+    background-color: var(--white);
+    transition: all 0.3s ease-out;
+}
+
+/* .progress__box {
+    border: 1px solid red;
+} */
+
+.progress__active {
+    background-color: var(--secondary);
+    width: 40px !important;
+}
+
+.progress__button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    outline: transparent;
+    border: transparent;
+    background-color: transparent;
+}
+
+.issuedv__backbutton  .progress__button{
+    justify-content: start !important;
+} 
+.issuedv__nextbutton  .progress__button{
+    justify-content: end !important;
+} 
+
+.progress__button:hover {
+    background-color: var(--white);
+}
+

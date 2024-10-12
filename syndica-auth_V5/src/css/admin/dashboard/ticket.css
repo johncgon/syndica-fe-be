@@ -1,0 +1,17 @@
+.adminpage_ticket-time{
+    color: #b5b5b5;
+}
+
+.ticket-id{
+    color: black;
+}
+.ticketlist__card{
+ transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.ticketlist__card:hover,
+.ticketlist__card:active {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    
+}

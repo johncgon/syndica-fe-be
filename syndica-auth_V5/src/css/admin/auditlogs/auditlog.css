@@ -1,0 +1,15 @@
+.adminpage__auditlog-container {
+  background-color: #ffffff;
+}
+
+.adminpage__auditlog-filter {
+  background-color: #f0f0f0;
+}
+
+.adminpage__auditlog-add {
+  background-color: #ffab2e;
+}
+
+.adminpage__auditlog-search-box {
+  border: 2px solid #ccc;
+}

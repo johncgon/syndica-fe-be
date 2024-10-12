@@ -1,0 +1,12 @@
+.totalcard__container,
+.adminpage__accountcard-container,
+.adminpage__summarycard-container,
+.vouchercard__container{
+  background-color: #ffffff;
+}
+
+.totalcard__header div {
+  width: 1rem;
+  height: 1rem;
+  background-color: red;
+}

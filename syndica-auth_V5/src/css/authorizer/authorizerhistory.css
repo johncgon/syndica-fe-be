@@ -1,0 +1,16 @@
+.authorizer__history-main-container{
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+}
+
+.authorizer__filter{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #E8F0F6;
+    border-radius: 0.25rem;
+}
+
+.authorizer__filter svg{
+    color: var(--secondary);
+}

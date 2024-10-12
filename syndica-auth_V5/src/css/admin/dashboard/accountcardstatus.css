@@ -1,0 +1,13 @@
+.accountstatus{
+    background-color: #ededed;
+}
+
+.accountstatus_card {
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.accountstatus_card:hover,
+.accountstatus_card:active {
+    background-color: #d4d4d4;
+    border-radius: 10px;
+}

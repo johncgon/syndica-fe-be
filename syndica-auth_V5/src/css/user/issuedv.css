@@ -1,0 +1,101 @@
+
+.issuedv__category-item-container ::-webkit-scrollbar,
+.issuedv__container ::-webkit-scrollbar
+.issuer__checklist-container ::-webkit-scrollbar
+{
+	height: 16px !important;
+}
+
+
+.issuedv__container {
+    background-color: var(--primary);
+}
+
+.categoryitem__icon {
+    background-color: var(--secondary);
+}
+
+.categoryitem__container:hover,
+.categoryitem__container:active {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+/* DV CREATION STYLE */
+
+/* .issuerdvcreation__container {
+    border: 1px solid red;
+} */
+
+.issuerdvcreation__requirement-checklist,
+.issuerdvcreation__form-container
+{
+    background-color: var(--primary);
+}
+
+/* .issuer__checklist-container {
+    border: 1px solid red;
+}
+    */
+
+.issuer__checklist-item-container:hover {
+    background-color: var(--white);
+} 
+
+.issuer__checklist-checkbox {
+    accent-color: var(--secondary);
+
+}
+
+/* .issuedv__form-container {
+    border: 1px solid red;
+} */
+
+.forminput__textbox {
+    background-color: transparent;
+    border: 1px solid #B5B5B5;
+}
+
+.submit__inactive {
+    color: #B5B5B5;
+    fill: #B5B5B5;
+}
+
+/* .dvsummary__container {
+    border: 1px solid red;
+} */
+
+.dvsummary__information,
+.dvsummary__print {
+    background-color: var(--primary);
+}
+
+/* .print__container {
+    border: 1px solid blue;
+} */
+
+.print__inner {
+    border: 2px solid black;
+}
+
+.print__header,
+.print__information-container {
+    border-bottom: 1px solid black;
+}
+
+.print__information-inner:nth-child(1),
+.print__note {
+    border-right: 1px solid black;
+}
+
+.print__button {
+    background-color: var(--accent);
+    outline: transparent;
+    border: transparent;
+}
+
+@media print {
+    .print__inner {
+        border: 2px solid black;
+    }
+}

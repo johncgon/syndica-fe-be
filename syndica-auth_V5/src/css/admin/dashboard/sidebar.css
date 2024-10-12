@@ -1,0 +1,48 @@
+:root {
+    --sidebarText: #7797ab;
+} 
+
+.sidebar {
+    background-color: #151515;
+    z-index: 2;
+}
+
+.sidebar__region{
+    color: #ffffff;
+}
+
+.sidebar__usertype{
+    color: #5C5C5C;
+}
+
+.sidebar__divider {
+    opacity: 0.2;
+}
+
+.sidebar__item-text{
+    color: #656565;
+}
+
+.sidebar__icon {
+    fill: #ABABAB;
+}
+
+.sidebar__item {
+    transition: all 0.3s ease-out;
+}
+
+.sidebar__item:hover {
+    background-color: var(--primary);
+}
+
+.sidebar-item:hover 
+.sidebar__icon {
+    fill:  #151515;
+}
+
+.sidebar__item:hover .sidebar__item-text{
+    color:black;
+    font-weight: 600;
+}
+
+

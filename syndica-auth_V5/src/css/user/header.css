@@ -1,0 +1,30 @@
+.userpage__header {
+    background-color: var(--primary);
+    z-index: 1;
+}
+
+.userpage__header-inner h1 {
+    color: var(--secondary);
+}
+
+.userpage__notification svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.userpage__notification {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.userpage__profile-icon {
+    background-color: red;
+    border-radius: 100rem;
+}
+
+.userpage__header-inner button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.badge__ongoing {
+    background-color: var(--ongoing);
+}
+.badge__completed {
+    background-color: var(--approved);
+}
+.badge__return {
+    background-color: var(--forreturn);
+}
+.badge__onhold {
+    color: #151515 !important;
+    background-color: var(--onhold);
+}
+.badge__unknown {
+    background-color: #838383;
+}
+.badge__container {
+    font-weight: 400;
+    color: var(--primary);
+}

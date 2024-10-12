@@ -1,0 +1,12 @@
+.authorizer__tracking-list-container, .authorizer__tracking-detail-container{
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+}
+
+.tracklistitem__container {
+    color: black;
+}
+
+.tracklistitem__container:nth-child(1) {
+    background-color: #E8F0F6;
+}

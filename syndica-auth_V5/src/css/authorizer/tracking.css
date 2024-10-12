@@ -1,0 +1,128 @@
+/* .tracking__container {
+    border: 1px solid red;
+} */
+
+.trackinformation__container,
+.tracklist__container {
+    background-color: var(--primary);
+}
+
+.filter__svg {
+    fill: var(--secondary);
+}
+
+.tracklist__searchfilter input{
+    border: 1px solid #b5b5b5;
+    outline: none;       
+}
+
+.tracklistitem__container {
+    transition: 0.3s ease-out;
+}
+.tracklistitem__container:hover {
+    background-color: var(--white);
+}
+
+/* .trackinformation__figure {
+    border: 1px solid red;
+} */
+
+/* .trackinformation__details, */
+/* .trackinformation__tracking {
+    border: 1px solid red;
+} */
+
+.trackinformation__details-content {
+    border: 1px solid #b5b5b5;
+    background-color: #F0F0F0;
+}
+
+.trackinformation__vl { /*Vertical Line*/
+    border-left: 1px solid #e2e2e2;
+}
+
+.trackingstatus__node:nth-child(1) {
+    border-left: 3px solid var(--secondary);
+    min-height: 6rem;
+}
+
+.trackingstatus__node:last-child {
+    border-left: 3px solid transparent
+}
+
+.trackingstatus__node {
+    border-left: 3px solid #b5b5b5;
+    position: relative;
+    padding-left: 1.5rem;
+    min-height: 4rem;
+}
+
+.trackingstatus__circle {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background-color: #b5b5b5;
+    position: absolute;
+    left: -0.7rem;
+    top: 0;
+}
+
+.trackingstatus__node:nth-child(1) .trackingstatus__circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    position: absolute;
+    left: -0.8rem;
+    top: 0;
+}
+
+.trackingfigure__container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .trackingfigure__node {
+    border: 1px solid lime;
+} */
+
+.trackingfigure__node::before {
+    content: "";
+    background-color: var(--primary);
+    border: 3px solid #b5b5b5;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.75);
+    z-index: 3;
+}
+
+.trackingfigure__node::after {
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: #b5b5b5;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+}
+
+.trackingfigure__node:last-child::after {
+    display: none;
+}
+
+.trackingfigure__node-finished::before {
+    background-color: #b5b5b5;
+    content: "✔";
+    text-align: center;
+    color: var(--primary);
+}
+
+.trackingfigure__node-current::before {
+    background-color: var(--secondary);
+    border: 3px solid var(--secondary);
+    transform: scale(1) translateX(-50%);
+}

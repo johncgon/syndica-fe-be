@@ -1,0 +1,51 @@
+:root {
+    --sidebarText: #7797ab;
+} 
+
+.userpage__sideBar {
+    background-color: var(--secondary);
+    z-index: 2;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.userpage__sideBar-item {
+    /* background-color: red; */
+}
+
+.userpage__sideBar p {
+    color: var(--sidebarText);
+}
+
+.userpage__sideBar-vector {
+    fill: var(--sidebarText)
+}
+
+.userpage__sideBar-item {
+    transition: all 0.3s ease-out;
+}
+
+.userpage__sideBar-item:hover {
+    background-color: var(--primary);
+}
+
+.userpage__sideBar-item:hover 
+.userpage__sideBar-vector {
+    fill: var(--secondary)
+}
+
+.userpage__sideBar-item:hover p{
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+.userpage__sideBar-background-image {
+    object-fit: cover;
+    width: 120%;
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+

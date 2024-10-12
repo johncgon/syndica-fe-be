@@ -1,0 +1,22 @@
+.header {
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.header__title .header__text {
+    color: #151515;
+}
+
+.header__notification svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.header__notification {
+    outline: none;
+    border: none;
+}
+
+.header__profile-icon {
+    background-color:#bfbfbf;
+}

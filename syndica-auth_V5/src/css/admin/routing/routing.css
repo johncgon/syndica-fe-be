@@ -1,0 +1,32 @@
+.adminpage__routing-container {
+  background-color: #ffffff;
+}
+
+.adminpage__routing-filter {
+  background-color: #f0f0f0;
+}
+
+.adminpage__routing-add {
+  background-color: #ffab2e;
+}
+
+.adminpage__routing-vouchers::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 15px;
+  background: transparent;
+}
+
+.adminpage__routing-vouchers::-webkit-scrollbar-track {
+  background: #f2f2f2; /* Color of the scrollbar track */
+  border-radius: 10px;
+}
+
+.adminpage__routing-vouchers::-webkit-scrollbar-thumb {
+  background: gray; /* Color of the scrollbar thumb */
+  border-radius: 10px;
+  height: 30px; /* Height of the scrollbar thumb */
+}
+
+.adminpage__routing-vouchers::-webkit-scrollbar-thumb:hover {
+  background: lightgray;
+}

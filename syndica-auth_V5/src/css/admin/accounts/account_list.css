@@ -1,0 +1,36 @@
+.adminpage__accounts-tablehead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid #dfdfdf;
+}
+
+.adminpage__accountdata_tr:hover {
+  background-color: #F0F0F0;
+  cursor: pointer; 
+}
+
+.adminpage__action-container button:hover {
+  border-radius: 50%;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+
+.adminpage_accounts-table-container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+}
+
+.adminpage_accounts-table-container::-webkit-scrollbar-track {
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+
+.adminpage_accounts-table-container::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
+.adminpage_accounts-table-container::-webkit-scrollbar-thumb:hover {
+  background: lightgray;
+}

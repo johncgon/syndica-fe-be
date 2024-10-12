@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+    .userpage__dashboard-container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .userpage__col {
+        width: 100% !important;
+    }
+
+    .userpage__card-container {
+        height: auto !important;
+    }
+
+    .userpage__card-title {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: start !important;
+        justify-content: start;
+    }
+
+    .userpage__card-title h3 {
+        font-size: 1rem;
+    }
+
+    .userpage__content-container {
+        overflow-y: auto !important;
+    }
+
+    .tracking__container,
+    .trackinformation__dvinformation  {
+        flex-direction: column;
+        height: auto !important;
+        overflow-y: auto;
+    }
+
+    .tracklist__container,
+    .trackinformation__container,
+    .trackinformation__tracking   {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .trackinformation__details {
+        flex-wrap: wrap;
+        flex-direction: row !important;
+        width: 100% !important;
+    }
+
+    .trackinformation__details  h4 {
+        width: 100%;
+    }
+
+    .trackinformation__details-info {
+        width: calc(50% - 8px);
+    }
+    
+    .historytable td {
+        font-size: 0.75rem;
+    }
+
+   
+    
+}
+
+
+@media  (max-width: 800px) {
+    .userpage__sideBar {
+        width: 10rem !important;
+    }
+
+    .userpage__sideBar p {
+        font-size: 0.75rem;
+    }
+
+    .userpage__sideBar svg {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .userpage__header {
+        padding-left: 10rem !important;
+    }
+
+    .userpage__content-container {
+        margin-left: 10rem;
+    }
+
+    .userpage__status-container{
+        flex-wrap: wrap;
+    }
+
+    .userpage__card-container {
+        width: calc(50% - 12px) !important;
+    }
+
+    .progress__inner h4,
+    .progress__button h4 {
+        font-size: 0.75rem;
+    }
+    
+    .issuerdvcreation__container {
+        flex-direction: column;
+        height: auto !important;
+        flex-wrap: wrap;
+        overflow-y: auto !important;
+    }
+
+    .issuerdvcreation__requirement-checklist {
+        width: 100% !important;
+    }
+    
+    .issuer__checklist-container {
+        height: auto !important;
+    }
+
+    .issuerdvcreation__form-container {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .voucher__information-inner {
+        flex-direction: row;
+    }
+
+    .userpage__content-container > div {
+        height: auto !important;
+    }
+
+}
+
